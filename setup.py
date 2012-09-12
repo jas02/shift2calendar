@@ -21,9 +21,7 @@ Synchronize Tieto Corporation employee Shifts to the (Google) Calendar""",
           '': ['*.conf'],
       },
       zip_safe=False,
-      install_requires=[
-          # -*- Extra requirements: -*-
-      ],
+      install_requires=['configobj', 'atom', 'gdata'],
       entry_points={'console_scripts': [
                         'shift2calendar = \
                         shift2calendar.shift2calendar:main']
